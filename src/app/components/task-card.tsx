@@ -82,7 +82,7 @@ export default function TaskCard({
     setTimeout(() => {
       setIsLoading(false);
     }, 1000);
-  }, []);
+  }, [setIsLoading]);
 
   return isLoading ? (
     <TaskSkeleton />
@@ -128,7 +128,7 @@ export default function TaskCard({
                       <DialogTitle>Update Task</DialogTitle>
                       <DialogDescription>
                         Change your task title and description here. Click save
-                        when you're done.
+                        when you&apos;re done.
                       </DialogDescription>
                     </DialogHeader>
                     <form

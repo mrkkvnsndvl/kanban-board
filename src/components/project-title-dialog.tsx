@@ -39,7 +39,7 @@ export default function ProjectTitleDialog() {
     setTimeout(() => {
       setIsLoading(false);
     }, 1000);
-  }, []);
+  }, [setIsLoading]);
 
   return (
     <div className='flex items-center'>
@@ -61,7 +61,7 @@ export default function ProjectTitleDialog() {
             <DialogTitle>Project Title</DialogTitle>
             <DialogDescription>
               {projectTitle !== '' ? 'Change' : 'Create'} your project title
-              here. Click save when you're done.
+              here. Click save when you&apos;re done.
             </DialogDescription>
           </DialogHeader>
           <form

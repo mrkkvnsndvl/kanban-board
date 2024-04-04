@@ -43,7 +43,7 @@ export default function AddTaskDialog() {
         <DialogHeader className='text-start'>
           <DialogTitle>Add Task</DialogTitle>
           <DialogDescription>
-            Add your task here. Click save when you're done.
+            Add your task here. Click save when you&apos;re done.
           </DialogDescription>
         </DialogHeader>
         <form
